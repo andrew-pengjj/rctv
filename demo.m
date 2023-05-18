@@ -19,8 +19,7 @@ r=13;
 beta = 50;
 lambda = 1;% 5,0.5
 tau = [0.8,0.8];% need to fine tune
-k=4;
 tic;
-output_image = MoG_RBTV(Nhsi, beta,lambda, tau, r, k);
+output_image = RCTV(Nhsi, beta,lambda, tau, r);
 time = toc;
 [mpsnr,mssim,ergas]=msqia(Ohsi, output_image)
