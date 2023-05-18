@@ -12,4 +12,4 @@ $\min_{\mathcal{U},\mathbf{V},\mathcal{S},\mathcal{E}} \quad \Vert \mathcal{U} \
 | ERGAS   | 12.23     |
 | Times   | 5.34(s)   |
 
-For more information, please see the [Paper](https://ieeexplore.ieee.org/abstract/document/9989343 "悬停显示")
+If you use this code, please cite this [Paper](https://ieeexplore.ieee.org/abstract/document/9989343 "悬停显示")
